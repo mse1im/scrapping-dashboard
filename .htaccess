@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Temel sayfalar için özel yönlendirmeler
+RewriteRule ^arsiv/?$ archive.html [L]
+RewriteRule ^arama/?$ search.html [L]
+RewriteRule ^logs/?$ logs.html [L]
+RewriteRule ^login/?$ login.html [L]
+RewriteRule ^index/?$ index.html [L]
